@@ -1,2 +1,5 @@
-﻿  Precompiled.cpp
+﻿  App.cpp
+C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\Engine\StzEngine\src\App.cpp(40,11): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file '/src/App.cpp')
+  
   StzEngine.vcxproj -> C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\x64\Debug\StzEngine.lib
