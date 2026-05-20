@@ -5,6 +5,7 @@
 using namespace StzEngine;
 using namespace StzEngine::Core;
 using namespace StzEngine::Input;
+using namespace StzEngine::Graphics;
 
 void App::Run(const AppConfig& config)
 {
@@ -14,7 +15,7 @@ void App::Run(const AppConfig& config)
 
 	auto handle = myWindow.GetWindowHandle();
 	InputSystem::StaticInitialize(handle);
-
+	GraphicsSystem::StaticInitialize(handle, config.fullscreen);
 
 	ASSERT(mCurrentState != nullptr, "App: need an app state to run");
 	mCurrentState->Initialize();
@@ -45,8 +46,14 @@ void App::Run(const AppConfig& config)
 		}
 #endif 
 		mCurrentState->Update(deltaTime);
+
+		GraphicsSystem* gs = GraphicsSystem::Get();
+		gs->BeginRender();
+		mCurrentState->Render();
+		gs->EndRender();
 	}
 	mCurrentState->Terminate();
+	GraphicsSystem::StaticTerminate();
 	InputSystem::StaticTerminate();
 	myWindow.Terminate();
 	LOG("App Ended");

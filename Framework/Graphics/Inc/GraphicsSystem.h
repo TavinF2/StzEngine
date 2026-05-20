@@ -1,4 +1,6 @@
 #pragma once
+#include "Color.h"
+
 namespace StzEngine::Graphics
 {
 	class GraphicsSystem final
@@ -25,11 +27,10 @@ namespace StzEngine::Graphics
 		void ToggleFullscreen();
 		void Resize(uint32_t width, uint32_t height);
 
-		void ResetRenderTargetView();
+		void ResetRenderTarget();
 		void ResetViewport();
 
-
-		// void SetClearColor();
+		void SetClearColor(const Color& color);
 		void SetVsync(bool vSync);
 
 		uint32_t GetBackBufferWidth() const;
@@ -39,8 +40,8 @@ namespace StzEngine::Graphics
 		ID3D11Device* GetDevice() const;
 		ID3D11DeviceContext* GetContext() const;
 	private:
-		static LRESULT CALLBACK GraphicsSystemMessageHandler(HWND window, UINT message, WPARAM wParam, LPARAM lParam);
-		ID3D11Device* mDevice = nullptr;
+		static LRESULT CALLBACK GraphicsSystemMessageHandle(HWND window, UINT message, WPARAM wParam, LPARAM lParam);
+		ID3D11Device* mD3DDevice = nullptr;
 		ID3D11DeviceContext* mImmediateContext = nullptr;
 
 		IDXGISwapChain* mSwapChain = nullptr;
@@ -48,9 +49,9 @@ namespace StzEngine::Graphics
 		ID3D11Texture2D* mDepthStencilBuffer = nullptr;
 		ID3D11DepthStencilView* mDepthStencilView = nullptr;
 
-		DXGI_SWAP_CHAIN_DESC mSwapChainDeskP{};
+		DXGI_SWAP_CHAIN_DESC mSwapChainDesc{};
 		D3D11_VIEWPORT mViewport{};
-
+		Color mClearColor = Colors::Black;
 		UINT mVsync = 1;
 
 	};

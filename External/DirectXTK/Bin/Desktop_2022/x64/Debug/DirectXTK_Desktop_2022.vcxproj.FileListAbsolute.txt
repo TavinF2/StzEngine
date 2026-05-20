@@ -1,0 +1,1 @@
+C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\External\DirectXTK\Bin\Desktop_2022\x64\Debug\DirectXTK.lib

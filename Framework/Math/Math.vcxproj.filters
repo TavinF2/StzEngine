@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="inc">
+      <UniqueIdentifier>{fd927abd-92e2-4b11-aa6b-a341228dfd38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{08054417-ca4c-4205-86c8-b3b9d61f0d2e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\Common.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\BMath.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Precompiled.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Constants.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Vector2.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Vector3.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Vector4.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Precompiled.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BMath.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
