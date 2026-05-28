@@ -33,7 +33,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shaders", "Shaders", "{8585
 	ProjectSection(SolutionItems) = preProject
 		Assets\Shaders\DoColor.fx = Assets\Shaders\DoColor.fx
 		Assets\Shaders\DoSomething.fx = Assets\Shaders\DoSomething.fx
+		Assets\Shaders\DoTransform.fx = Assets\Shaders\DoTransform.fx
 	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_HelloCube", "VGP242\03_HelloCube\03_HelloCube.vcxproj", "{CD799D85-EDCA-4305-B2F2-0AE0C2FFF3B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -107,6 +110,14 @@ Global
 		{C573F3E8-1340-4E46-900C-905D98E5FDF0}.Release|x64.Build.0 = Release|x64
 		{C573F3E8-1340-4E46-900C-905D98E5FDF0}.Release|x86.ActiveCfg = Release|Win32
 		{C573F3E8-1340-4E46-900C-905D98E5FDF0}.Release|x86.Build.0 = Release|Win32
+		{CD799D85-EDCA-4305-B2F2-0AE0C2FFF3B0}.Debug|x64.ActiveCfg = Debug|x64
+		{CD799D85-EDCA-4305-B2F2-0AE0C2FFF3B0}.Debug|x64.Build.0 = Debug|x64
+		{CD799D85-EDCA-4305-B2F2-0AE0C2FFF3B0}.Debug|x86.ActiveCfg = Debug|Win32
+		{CD799D85-EDCA-4305-B2F2-0AE0C2FFF3B0}.Debug|x86.Build.0 = Debug|Win32
+		{CD799D85-EDCA-4305-B2F2-0AE0C2FFF3B0}.Release|x64.ActiveCfg = Release|x64
+		{CD799D85-EDCA-4305-B2F2-0AE0C2FFF3B0}.Release|x64.Build.0 = Release|x64
+		{CD799D85-EDCA-4305-B2F2-0AE0C2FFF3B0}.Release|x86.ActiveCfg = Release|Win32
+		{CD799D85-EDCA-4305-B2F2-0AE0C2FFF3B0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -121,6 +132,7 @@ Global
 		{E7BC78A4-F47D-4273-8513-F172D8B520BF} = {B2525CE5-FF7D-49F7-B6AD-776428DC76CE}
 		{C573F3E8-1340-4E46-900C-905D98E5FDF0} = {4352823F-FEAA-4CAF-A57E-561428087795}
 		{8585073C-DDF2-4995-B84C-88D81B49D095} = {331B53CD-8557-4015-9F68-B84A291BDB6C}
+		{CD799D85-EDCA-4305-B2F2-0AE0C2FFF3B0} = {4352823F-FEAA-4CAF-A57E-561428087795}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4C3C049D-915B-41B1-AA03-8A3EEDC8428A}

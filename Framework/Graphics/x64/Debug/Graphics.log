@@ -1,7 +1,2 @@
-﻿  VertexShader.cpp
-C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\Framework\Graphics\Src\VertexShader.cpp(63,3): warning C4474: 'snprintf' : too many arguments passed for format string
-  (compiling source file '/Src/VertexShader.cpp')
-      C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\Framework\Graphics\Src\VertexShader.cpp(63,3):
-      placeholders and their parameters expect 1 variadic arguments, but 2 were provided
-  
+﻿  ConstantBuffer.cpp
   Graphics.vcxproj -> C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\x64\Debug\Graphics.lib

@@ -1,6 +1,8 @@
 #pragma once
+#include "Camera.h"
 #include "Common.h"
 #include "Color.h"
+#include "ConstantBuffer.h"
 #include "GraphicsSystem.h"
 #include "MeshBuffer.h"
 #include "PixelShader.h"

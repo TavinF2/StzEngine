@@ -134,6 +134,8 @@
     <ClInclude Include="inc\BMath.h" />
     <ClInclude Include="inc\Common.h" />
     <ClInclude Include="inc\Constants.h" />
+    <ClInclude Include="inc\Matrix4.h" />
+    <ClInclude Include="inc\Quaternion.h" />
     <ClInclude Include="inc\Vector2.h" />
     <ClInclude Include="inc\Vector3.h" />
     <ClInclude Include="inc\Vector4.h" />

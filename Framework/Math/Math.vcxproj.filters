@@ -30,6 +30,12 @@
     <ClInclude Include="inc\Vector4.h">
       <Filter>inc</Filter>
     </ClInclude>
+    <ClInclude Include="inc\Matrix4.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Quaternion.h">
+      <Filter>inc</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Precompiled.cpp">
