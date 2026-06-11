@@ -16,6 +16,9 @@ void App::Run(const AppConfig& config)
 	auto handle = myWindow.GetWindowHandle();
 	InputSystem::StaticInitialize(handle);
 	GraphicsSystem::StaticInitialize(handle, config.fullscreen);
+	TextureManager::StaticInitialize(L"../../Assets/Textures");
+	DebugUI::StaticInitialize(handle, false, true);
+	SimpleDraw::StaticInitialize(config.maxVertexCount);
 
 	ASSERT(mCurrentState != nullptr, "App: need an app state to run");
 	mCurrentState->Initialize();
@@ -50,9 +53,17 @@ void App::Run(const AppConfig& config)
 		GraphicsSystem* gs = GraphicsSystem::Get();
 		gs->BeginRender();
 		mCurrentState->Render();
+		DebugUI::BeginDraw();
+			mCurrentState->DebugUI();
+		DebugUI::EndDraw();
 		gs->EndRender();
 	}
 	mCurrentState->Terminate();
+
+
+	SimpleDraw::StaticTerminate();
+	DebugUI::StaticTerminate();
+	TextureManager::StaticTerminate();
 	GraphicsSystem::StaticTerminate();
 	InputSystem::StaticTerminate();
 	myWindow.Terminate();

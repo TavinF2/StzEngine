@@ -10,6 +10,7 @@ namespace StzEngine
 		std::wstring appName = L"AppName";
 		uint32_t windowWidth = 1280;
 		uint32_t windowHeight = 720;
+		uint32_t maxVertexCount = 10000;
 		bool fullscreen = false;
 	};
 

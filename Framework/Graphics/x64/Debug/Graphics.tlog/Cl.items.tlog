@@ -1,7 +1,13 @@
 C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\Framework\Graphics\Src\Camera.cpp;C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\Framework\Graphics\x64\Debug\Camera.obj
 C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\Framework\Graphics\Src\ConstantBuffer.cpp;C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\Framework\Graphics\x64\Debug\ConstantBuffer.obj
+C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\Framework\Graphics\Src\DebugUI.cpp;C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\Framework\Graphics\x64\Debug\DebugUI.obj
 C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\Framework\Graphics\Src\GraphicsSystem.cpp;C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\Framework\Graphics\x64\Debug\GraphicsSystem.obj
 C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\Framework\Graphics\Src\MeshBuffer.cpp;C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\Framework\Graphics\x64\Debug\MeshBuffer.obj
+C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\Framework\Graphics\Src\MeshBuilder.cpp;C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\Framework\Graphics\x64\Debug\MeshBuilder.obj
 C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\Framework\Graphics\Src\PixelShader.cpp;C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\Framework\Graphics\x64\Debug\PixelShader.obj
 C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\Framework\Graphics\Src\Precompiled.cpp;C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\Framework\Graphics\x64\Debug\Precompiled.obj
+C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\Framework\Graphics\Src\Sampler.cpp;C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\Framework\Graphics\x64\Debug\Sampler.obj
+C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\Framework\Graphics\Src\SimpleDraw.cpp;C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\Framework\Graphics\x64\Debug\SimpleDraw.obj
+C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\Framework\Graphics\Src\Texture.cpp;C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\Framework\Graphics\x64\Debug\Texture.obj
+C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\Framework\Graphics\Src\TextureManager.cpp;C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\Framework\Graphics\x64\Debug\TextureManager.obj
 C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\Framework\Graphics\Src\VertexShader.cpp;C:\SchoolStuff\Y2\3D Graphics Programming Spring 2026\Framework\Graphics\x64\Debug\VertexShader.obj

@@ -84,11 +84,60 @@ void ShapeState::Render()
 	mMeshBuffer.Render();
 }
 
-void ShapeState::CreateShape()
+void ShapeState::CreateShape() // Creating a cube 
 {
-	mVertices.push_back({ {-0.5f, -0.5f, 0}, {StzEngine::Graphics::Colors::Red} });
-	mVertices.push_back({ {0.0f, 0.5f, 0}, {StzEngine::Graphics::Colors::Green} });
-	mVertices.push_back({ {0.5f, -0.5f, 0}, {StzEngine::Graphics::Colors::Blue} });
+	// front
+	mVertices.push_back({ { 0.0f, 0.0f, 0.0f }, {StzEngine::Graphics::Colors::Red} });
+	mVertices.push_back({ { 0.0f, 1.0f, 0.0f }, {StzEngine::Graphics::Colors::Green} });
+	mVertices.push_back({ { 1.0f, 0.0f, 0.0f }, {StzEngine::Graphics::Colors::Blue} });
 
+	mVertices.push_back({ { 1.0f, 1.0f, 0.0f }, {StzEngine::Graphics::Colors::HotPink} });
+	mVertices.push_back({ { 1.0f, 0.0f, 0.0f }, {StzEngine::Graphics::Colors::Purple} });
+	mVertices.push_back({ { 0.0f, 1.0f, 0.0f }, {StzEngine::Graphics::Colors::SeaGreen} });
+
+	// back
+	mVertices.push_back({ { 0.0f, 0.0f, 1.0f }, {StzEngine::Graphics::Colors::ForestGreen} });
+	mVertices.push_back({ { 1.0f, 0.0f, 1.0f }, {StzEngine::Graphics::Colors::IndianRed} });
+	mVertices.push_back({ { 0.0f, 1.0f, 1.0f }, {StzEngine::Graphics::Colors::BlueViolet} });
+
+	mVertices.push_back({ { 1.0f, 1.0f, 1.0f }, {StzEngine::Graphics::Colors::DarkOliveGreen} });
+	mVertices.push_back({ { 0.0f, 1.0f, 1.0f }, {StzEngine::Graphics::Colors::DarkSlateBlue} });
+	mVertices.push_back({ { 1.0f, 0.0f, 1.0f }, {StzEngine::Graphics::Colors::OrangeRed} });
+
+	// top
+	mVertices.push_back({ { 0.0f, 1.0f, 0.0f }, {StzEngine::Graphics::Colors::LawnGreen} });
+	mVertices.push_back({ { 0.0f, 1.0f, 1.0f }, {StzEngine::Graphics::Colors::LightSkyBlue} });
+	mVertices.push_back({ { 1.0f, 1.0f, 0.0f }, {StzEngine::Graphics::Colors::OrangeRed} });
+
+	mVertices.push_back({ { 1.0f, 1.0f, 1.0f }, {StzEngine::Graphics::Colors::LimeGreen} });
+	mVertices.push_back({ { 1.0f, 1.0f, 0.0f }, {StzEngine::Graphics::Colors::MediumVioletRed} });
+	mVertices.push_back({ { 0.0f, 1.0f, 1.0f }, {StzEngine::Graphics::Colors::PowderBlue} });
+
+	// bottom
+	mVertices.push_back({ { 0.0f, 0.0f, 0.0f }, {StzEngine::Graphics::Colors::Yellow} });
+	mVertices.push_back({ { 1.0f, 0.0f, 0.0f }, {StzEngine::Graphics::Colors::RoyalBlue} });
+	mVertices.push_back({ { 0.0f, 0.0f, 1.0f }, {StzEngine::Graphics::Colors::DarkGreen} });
+
+	mVertices.push_back({ { 1.0f, 0.0f, 1.0f }, {StzEngine::Graphics::Colors::DarkOrange} });
+	mVertices.push_back({ { 0.0f, 0.0f, 1.0f }, {StzEngine::Graphics::Colors::MediumSeaGreen} });
+	mVertices.push_back({ { 1.0f, 0.0f, 0.0f }, {StzEngine::Graphics::Colors::DarkSlateBlue} });
+
+	// left
+	mVertices.push_back({ { 0.0f, 1.0f, 0.0f }, {StzEngine::Graphics::Colors::PaleGreen} });
+	mVertices.push_back({ { 0.0f, 0.0f, 0.0f }, {StzEngine::Graphics::Colors::PaleGoldenrod} });
+	mVertices.push_back({ { 0.0f, 0.0f, 1.0f }, {StzEngine::Graphics::Colors::LightSteelBlue} });
+
+	mVertices.push_back({ { 0.0f, 1.0f, 1.0f }, {StzEngine::Graphics::Colors::PowderBlue} });
+	mVertices.push_back({ { 0.0f, 1.0f, 0.0f }, {StzEngine::Graphics::Colors::PaleGreen} });
+	mVertices.push_back({ { 0.0f, 0.0f, 1.0f }, {StzEngine::Graphics::Colors::LightSteelBlue} });
+	// right
+	mVertices.push_back({ { 1.0f, 1.0f, 0.0f }, {StzEngine::Graphics::Colors::OrangeRed} });
+	mVertices.push_back({ { 1.0f, 0.0f, 1.0f }, {StzEngine::Graphics::Colors::IndianRed} });
+	mVertices.push_back({ { 1.0f, 0.0f, 0.0f }, {StzEngine::Graphics::Colors::BlueViolet} });
+
+	mVertices.push_back({ { 1.0f, 1.0f, 1.0f }, {StzEngine::Graphics::Colors::Green} });
+	mVertices.push_back({ { 1.0f, 0.0f, 1.0f }, {StzEngine::Graphics::Colors::Red} });
+	mVertices.push_back({ { 1.0f, 1.0f, 0.0f }, {StzEngine::Graphics::Colors::Red} });
+	
 
 }
