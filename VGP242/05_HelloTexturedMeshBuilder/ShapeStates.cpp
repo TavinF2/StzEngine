@@ -1,7 +1,4 @@
 #include "ShapeStates.h"
-
-
-
 using namespace StzEngine;
 using namespace StzEngine::Graphics;
 using namespace StzEngine::Input;

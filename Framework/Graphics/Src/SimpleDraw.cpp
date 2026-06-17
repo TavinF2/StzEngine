@@ -288,7 +288,7 @@ void SimpleDraw::AddGroundCircle(uint32_t slices, float radius, const Color& col
 			0.0f,
 			radius * cos(rot1)
 		};
-		AddLine(v0, v1, color);
+		AddLine(v0 + origin, v1 + origin, color);
 	}
 }
 
