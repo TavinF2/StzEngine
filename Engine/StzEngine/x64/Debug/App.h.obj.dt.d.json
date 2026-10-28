@@ -1,0 +1,10 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\school\\realtimegpuprogrammingfa26\\stzengine-main\\stzengine-main\\engine\\stzengine\\inc\\app.h",
+        "ProvidedModule": "",
+        "Includes": [],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,10 @@
+﻿  RenderObject.cpp
+  RenderTarget.cpp
+  StandardEffect.cpp
+C:\School\RealtimeGpuProgrammingFA26\StzEngine-main\StzEngine-main\Framework\Graphics\Src\RenderTarget.cpp(101,77): warning C4244: 'argument': conversion from 'float' to 'UINT8', possible loss of data
+  (compiling source file '/Src/RenderTarget.cpp')
+  
+  Texture.cpp
+  TextureManager.cpp
+  Generating Code...
+  Graphics.vcxproj -> C:\School\RealtimeGpuProgrammingFA26\StzEngine-main\StzEngine-main\x64\Debug\Graphics.lib
