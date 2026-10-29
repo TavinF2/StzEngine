@@ -47,5 +47,5 @@
 */Release/
 
 
-!External/assimp-5.2.5/*
+!External/assimp-5.2.5/**
 
